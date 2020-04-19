@@ -1,0 +1,280 @@
+body{
+    background-color: #d3f3ff;
+}
+
+main{
+    margin-top: 35px;
+}
+
+header{
+    display: flex;
+    padding: 5%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #245F76;
+    display: flex;
+    padding: 0px 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color:#1B4454;
+}
+
+h1{
+    font-size: 30px;
+}
+
+#notArt{
+    display: flex;
+    margin-left: 5%;
+    margin-bottom: 35px;
+}
+
+#notClima{
+    display: flex;
+    margin-left: 5%;
+    margin-bottom: 35px;
+}
+
+#youtubeA{
+    text-align: center;
+    margin: 10% 10%;
+}
+
+#youtubeB{
+    text-align: center;
+    margin: 10% 10%;
+}
+.contato{
+    background-color: #298ADC;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    font-size: 20px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contato:hover{
+    background-color: #A6E7FF;
+}
+.contato:focus{
+    outline: none;
+}
+
+
+.parteB{
+    padding: 5%;
+    margin: auto;
+    
+}
+
+.parteC{
+    text-align: center;
+}
+
+.audio{
+    text-align: center;
+    padding: 30px;
+}
+
+.fontes{
+    margin: 5%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.linkFonte{
+    text-decoration: none;
+    color: white;
+    background-color: #1A4454;
+    padding: 20px;
+    box-shadow: 0px 5px 8px gray;
+}
+
+.btnGeral{
+    border-radius: 40px;
+    background-color: #245F76;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btnGeral:hover{
+    background-color: #1A4454;
+}
+
+#container{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#icon{
+    margin: auto;
+    width: 200px;
+}
+
+#anuncio{
+    text-align: center;
+    color: white;
+    background-color: #3388A8;
+}
+
+#frase{
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+#sobre{
+    display: flex;
+}
+
+#mapa{
+    height: 150px;
+    background-color:#1F2628;
+    color: white;
+    padding-top: 3px;
+    padding-left: 2%;
+}
+
+#dev{
+    height: 60px;
+    background-color: #3388A8;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+#rodape{
+    background-color: #1F2628;
+}
+
+#lucas{
+    width: 50%;
+}
+
+#form{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    padding-bottom: 40px;
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+#autor{
+    text-align: center;
+    margin: 35px 35px;
+}
+
+#nome{
+    font-size: 35px;
+}
+
+#descricao{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding: 4%;
+}
+
+#textDesc{
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 20%;
+}
+
+#github{
+    text-decoration: none;
+    color: white;
+    background-color: #24292e;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+#titHome{
+    margin-top: 35px;
+    font-size: 50px;
+}
+
+#titSaiba{
+    text-align: center;
+}
+
+#titContato{
+    text-align: center;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type=submit] {
+    width: 100%;
+    background-color: #245F76;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+button[type=submit]:hover{
+    background-color: #1A4454;
+}
+
+textarea{
+    margin-top: 20px;
+    resize: vertical;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
